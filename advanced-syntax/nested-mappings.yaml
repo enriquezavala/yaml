@@ -1,0 +1,12 @@
+# block style
+student:
+  name: Enrique
+  age: 17
+  address:
+    city: Chicago
+    country: USA
+
+---
+
+# flow style
+student: [name: Enrique, age: 17, address: [city: Chicago, country: USA]]

@@ -1,0 +1,34 @@
+# block style
+students:
+  - name: Enrique
+    age: 17
+    address:
+      city: Chicago
+      country: USA
+  - name: Katlin
+    age: 15
+    address:
+      city: Austin
+      country: USA
+
+---
+
+# flow style
+students:
+  [
+    { name: Enrique, age: 17, address: { city: Chicago, country: USA } },
+    { name: Katlin, age: 17, address: { city: Chicago, country: USA } },
+  ]
+
+---
+
+# not a best practice combining styles
+students:
+  - name: Enrique
+    age: 17
+    address:
+      city: Chicago
+      country: USA
+  - name: Katlin
+    age: 15
+    address: { city: Chicago, country: USA }

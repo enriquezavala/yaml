@@ -1,0 +1,14 @@
+# a node is every chunch of YAML, that would be valid YAML itself as well
+students: &student # using anchor name to repeat the node
+    # first student node    
+  - name: Enrique 
+    age: 17
+    address:
+      city: Chicago
+      country: USA
+    # same as first student node
+  - name: *student # using alias  
+    # same as first student node but override some properties
+  - name: <<: *student # using merge key :<<
+    name: Katlin
+    age: 15

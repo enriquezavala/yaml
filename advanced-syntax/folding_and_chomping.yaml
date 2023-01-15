@@ -1,0 +1,91 @@
+# multi-line string
+# using >
+# line breaks are not stored as new lines, only new lines or lines with identation,
+# at the end only keeps one new line
+# Welcome to The school.\nYou can learn about some \n  programming languages\nlike java, scala and go\n
+message:> 
+Welcome to The school.
+
+You can learn about some 
+  programming languages 
+like java, scala and go
+
+
+
+---
+
+# multi-line string
+# using >-
+# line breaks are not stored as new lines, only new lines or lines with identation
+# - indicates new lines at the end will be removed
+# Welcome to The school.\nYou can learn about some \n  programming languages\nlike java, scala and go
+message:>-
+Welcome to The school.
+
+You can learn about some 
+  programming languages 
+like java, scala and go
+
+
+
+---
+
+# multi-line string
+# using >+
+# line breaks are not stored as new lines, only new lines or lines with identation
+# + indicates new lines at the end will be preserve
+# Welcome to The school.\nYou can learn about some \n  programming languages\nlike java, scala and go\n\n\n
+message:>+
+Welcome to The school.
+
+You can learn about some 
+  programming languages 
+like java, scala and go
+
+
+
+---
+
+# multi-line string
+# using |
+# all the line breaks are line breaks
+# at the end only keeps one new line
+# Welcome to The school.\n\nYou can learn about some \n  programming languages\nlike java, scala and go\n
+message:|
+Welcome to The school.
+
+You can learn about some 
+  programming languages 
+like java, scala and go
+
+
+
+---
+
+# multi-line string
+# using |-
+# all the line breaks are line breaks
+# - indicates new lines break at the end will be removed
+# Welcome to The school.\n\nYou can learn about some \n  programming languages\nlike java, scala and go
+message:|-
+Welcome to The school.
+
+You can learn about some 
+  programming languages 
+like java, scala and go
+
+---
+
+# multi-line string
+# using |+
+# all the line breaks are line breaks
+# + indicates new lines break at the end will be preserve
+# Welcome to The school.\n\nYou can learn about some \n  programming languages\nlike java, scala and go\n\n\n
+message:|+
+Welcome to The school.
+
+You can learn about some 
+  programming languages 
+like java, scala and go
+
+

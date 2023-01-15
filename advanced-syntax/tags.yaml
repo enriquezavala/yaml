@@ -1,0 +1,4 @@
+# untagged nodes are given a type depending on the application 
+date: 2023-01-15 # this is a date
+# explicit typing is denoted with a tag using the ! symbol, 
+no_date: !!str 2023-01-15 # this is a string instead of date
