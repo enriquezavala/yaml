@@ -1,0 +1,9 @@
+student: enrique # key: value
+"school name": the school # use quotes for a key with spaces
+version: 1.0 # numbers as a value
+courses: # sequence, key with values
+ - java
+ - scala
+ - go
+ - python
+ - javascript

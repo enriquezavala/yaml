@@ -1,0 +1,16 @@
+student: enrique # string
+school: the school # string without quotes
+course: "yaml fundamentals" # string with quotes
+message: 'welcome to "yaml fundamentals" course' # using single quotes
+notes: "not experience required \n good for beginners" # using escapes
+
+students: 12 # decimal number
+version: 1.0 # float number
+id: 012 # numbers starting with 0 are octals, use quotes to avoid octals, ex. "012"
+grade: 0xA # hexadecimal
+
+required: true # boolean expression
+teacher: null # null value
+
+datetime: 2023-01-10T22:32:35.10+06:00 # timestamp
+date: 2023-01-10 # simple date

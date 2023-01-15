@@ -1,0 +1,16 @@
+# yamel document
+school: the school 
+--- # separate yaml documents
+# other yaml document
+courses:
+ - java
+ - scala
+ - go
+ - python
+ - javascript
+---
+# other yaml document
+student: enrique
+---
+# other yaml document
+student: enrique # duplicates keys are allowed in same file but different yaml document
