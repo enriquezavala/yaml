@@ -1,0 +1,26 @@
+
+schema: failsafe
+tags: string, mapping and sequence
+school: !!str the school # string value
+student: !!map # mapping value
+  name: enrique
+  age: 17
+courses: !!seq # sequence value
+  - java
+  - scala
+  - go
+
+---
+
+schema: JSON
+tags: failsafe tags, null, boolean, integer and float
+datetime: !!null null # null value
+required: !!bool true # boolean value
+students: !!int 12 # integer value
+grade: !!float 10.0 # float value
+
+---
+# recommended default schema
+# recommended to base custom schemas on this one 
+schema: core
+tags: extension of the JSON schema
