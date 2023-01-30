@@ -20,3 +20,7 @@
 # parsing-file
 1. parsing.yaml
 2. custom_tags.yaml
+
+# others
+1. yaml-vs-json.yaml
+2. yaml-vs-xml.yaml
