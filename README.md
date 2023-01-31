@@ -1,4 +1,4 @@
-# basic-syntax
+### basic-syntax
 1. sequences_block.yaml
 2. sequences_flow.yaml
 3. sequences_block_and_flow.yaml
@@ -8,7 +8,7 @@
 7. comments.yaml
 8. documents.yaml
 
-# advanced-syntax
+### advanced-syntax
 1. folding_and_chomping.yaml
 2. nested_sequences.yaml
 3. nested-mappings.yaml
@@ -17,10 +17,12 @@
 6. tags.yaml
 7. schemas.yaml
 
-# parsing-file
+### parsing-file
 1. parsing.yaml
 2. custom_tags.yaml
 
-# others
-1. yaml-vs-json.yaml
-2. yaml-vs-xml.yaml
+### yaml-json
+1. yaml-json.yaml
+
+### yaml-xml
+1. yaml-xml.yaml
